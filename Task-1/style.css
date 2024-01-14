@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.Container{
+    background-image:linear-gradient(79deg, purple ,  pink 48% , orange);
+}
+span{
+    background-image: url(https://wallpapercave.com/wp/MQy6rhu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.video-player{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.video{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+.audio-player{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.audio{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+}
