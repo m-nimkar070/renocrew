@@ -1,0 +1,42 @@
+*{
+    --bgColor:rgb(154, 208, 225);
+    --borderRadius:10px;
+}
+.container{
+    width: 300px;
+    border: 2px solid;
+    padding: 5px;
+    background-color: var(--bgColor);
+    border-radius: var(--borderRadius);
+    box-shadow: 2px 5px 10px;
+}
+
+.image img{
+    margin-bottom:5px ;
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--borderRadius);
+}
+
+
+
+.capsule span{
+    padding: 2px;
+    margin: 2px 5px ;
+    border: 1px solid black;
+    border-radius: var(--borderRadius);
+}
+
+.btn{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 5px;
+    border: none;
+    border-radius: var(--borderRadius);
+    color: rgb(6, 103, 103);
+}
