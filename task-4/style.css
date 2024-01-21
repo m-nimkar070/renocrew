@@ -1,0 +1,33 @@
+:root{
+    --color-Primary:rgb(1, 174, 1);
+    --color-Secondary:rgb(222, 234, 222);
+    --root-color:black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--root-color);
+}
+
+nav{
+    background-color: var(--color-Primary);
+    padding: 10px;
+}
+
+ul li{
+    list-style: none;
+    padding: 5px 10px;
+    display: inline;
+    font-weight: bolder;
+    color: var(--color-Secondary);
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--color-Secondary);
+}
