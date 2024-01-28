@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    font-family:sans-serif;
+    color: #fff;
+}
+body{
+    background-image: url(/assets/hero-image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+header {
+    color: #fff;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo img{
+    width: 150px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li select{
+    list-style-image: url(/assets/Launguage.svg);
+    background-color: #51494985;
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 4px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* First main div */
+.main-div{
+    padding: 5rem;
+    margin: 5rem;
+    text-align: center;
+}
+.main-div h1{
+    font-size: 48px;
+}
+.main-div p{
+    padding: 2rem;
+    font-size: 24px;
+    margin: 16px 0px 0px;
+}
+
+.get-started-content h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.get-started-content{
+    margin: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputfield-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0.5rem;
+}
+.inputfield-btn input{
+    padding: 16px 16px 10px 18px;
+    border: none;
+    border-radius: 5px;
+    line-height: 1.5;
+    font-size: 1rem;
+    background: #00000093;
+}
+.inputfield-btn input::placeholder {
+    color: #cec4c4;
+}
+.inputfield-btn input button img{
+    margin-left: 5px;
+}
+
+button {
+    font-weight: 800;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 13px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Second Main Div */
+.between{
+    width: 100vw;
+    height: 10px;
+    background-color: #2a2828;
+}
+
+.second-main-div{
+    padding: 4.5rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-first h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.sec-first p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.tv-img{
+    position: relative;
+    width: 100%;
+
+}
+.tv-bg-img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.gif-img{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 72%;
+    height: auto;
+    z-index: 1;
+}
+
+/* Third Main Div */
+
+.third-main-div{
+    padding: 4.5rem;
+    position: relative;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mobile-bottom{
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    bottom: 8%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(128,128,128,0.7);
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    border-radius: 0.75rem;
+    gap: 5px;
+}
+.boxshot{
+    width: 100%;
+    height: 80px
+}
+.download-icon{
+    width: 50%;
+    height: 60px;
+}
+
+.mobile-bottom-content-1{
+    color: #0071eb;
+}
+
+/* fourth Main div */
+
+.fourth-main-div{
+    padding: 4.5rem;
+    position: relative;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.secrade-games{
+    position: absolute;
+    top: 32%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 41%;
+    z-index: 1;
+}
+
+/* ... (existing styles) */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color: rgb(59, 58, 57);
+    text-align: center;
+    padding: 40px 0px;
+    width: 100%;
+    flex-direction: column;
+}
+.footer-container{
+    text-align: start;
+    width: 80vw;
+    padding: 2rem 0px;
+    gap: 2rem;
+}
+.footer-container ul{
+    list-style: none;
+    padding-left:16px ;
+}
+.footer-container ul li{
+    padding: 1rem 0px;
+    margin: 1rem 0px;
+}
+
+.footer-container ul li select{
+    background-color: #4e474785;
+    border: 1px solid #ffffff;
+    padding: 12px;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 4px;
+}
+.foot-title{
+    padding: 10px 0px;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 1rem;
+}
+
+.grid-container a{
+    text-decoration: none;
+    padding: 5px;
+    padding: 2rem opx;;
+}
+footer img{
+    width: 25px;
+    height: 25px;
+}
+/* Fifth-main-div */
+
+.Fifth-main-div{
+    padding: 4.5rem;
+    position: relative;
+    color: #ccc;
+    background-color: #51494985;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.faq-section{
+    padding: 4.5rem 0;
+    background-color: #000000;
+    text-align: center;
+}
+.faq-section h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.questions{
+    margin: 1.5rem 0 0;
+    padding: 5px;
+}
+.list-elements{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.list{
+    list-style-type: none;
+    margin: 0 0 0.5rem 0;
+    background-color: rgb(50, 49, 48);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 80vw;
+    padding: 0 1.5rem;
+}
+
+.bottom-one{
+    margin: 1rem;
+}
+
+/* Responsive styles for footer */
+@media (max-width: 600px) {
+    header{
+        padding: 24px;
+    }
+    .main-div{
+        padding: 2rem;
+        margin: 2rem;
+        text-align: center;
+    }
+    .main-div h1{
+        font-size: 25px;
+    }
+    .main-div p{
+        padding: 1rem;
+        font-size: 20px;
+        margin: 16px 0px 0px;
+    }
+    .get-started-content h3{
+        font-size: 10px;
+    }
+
+
+    .sec-first h2{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .boxshot {
+        width: 50%;
+        height: 55px;
+    }
+    .mobile-bottom{
+        flex-direction: column;
+    }
+    footer {
+        position: static; /* Remove fixed positioning on smaller screens */
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    footer p {
+        font-size: 0.8rem; /* Adjust font size for smaller screens */
+    }
+}
+
