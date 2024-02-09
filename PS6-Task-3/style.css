@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav{
+    background-color: #df1111;
+  }
+  ul{
+    display: flex;
+    list-style: none;
+  }
+  ul li{
+    padding: 0 23px;
+    font-size: 20px;
+    color: white;
+  }
