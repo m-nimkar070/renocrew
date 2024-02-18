@@ -9,3 +9,18 @@
     border-radius: 5px;
     margin: 5px;
   }
+
+  #clock{
+    width: 400px;
+    height: 200px;
+    border: 1px solid cyan;
+    box-shadow: 0px 0px 5px 5px #141414;;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  #time{
+    font-size: 50px;
+    color: orange;
+  }
