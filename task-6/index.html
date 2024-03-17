@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Todo app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <section class="todo-app">
+        <h1>Todo App</h1>
+
+        <!-- create todo div -->
+        <div class="create">
+          <label for="createkeypair">Key:</label>
+          <input
+            type="text"
+            id="createkeypair"
+            placeholder="Enter Key for todo"
+            class="create-key inp"
+          />
+          <label for="createvaluepair">Value:</label>
+          <input
+            type="text"
+            id="createvaluepair"
+            placeholder="Enter value for todo"
+            class="create-value inp"
+          />
+        </div>
+
+        <!-- Buttons Section -->
+        <section class="btns">
+          <button class="btn btn-success" id="btn-create">Create</button>
+          <button
+            class="btn btn-danger"
+            data-toggle="tooltip"
+            title="Enter only key to delete!"
+            id="delete"
+          >
+            Delete
+          </button>
+        </section>
+      </section>
+      <!-- Todo List -->
+      <h2>Todo List shown below Dynamic Data Changes</h2>
+      <!-- Todo items shown here -->
+      <section id="items">
+        <table id="tbl" class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Key</th>
+              <th scope="col">Value</th>
+            </tr>
+          </thead>
+          <!-- Dynamically data will be added here -->
+          <tbody id="tbody">
+
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
